@@ -26,6 +26,7 @@ public class FileReaderFIleWriter {
     public static void main(String[] args) {
         String nombre = "prueba.txt";
         
+        
         fileWriter(nombre);
         fileReader(nombre);
     }

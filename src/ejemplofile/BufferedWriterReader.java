@@ -46,10 +46,10 @@ public class BufferedWriterReader {
             BufferedReader br = new BufferedReader(new FileReader(nombre));
 
             
-            int valor = br.read();
-            while (valor != -1){
+            String valor = br.readLine();
+            
+            while (valor != null){
                 System.out.println(valor);
-                valor = br.read();
             }
             br.close();
         }

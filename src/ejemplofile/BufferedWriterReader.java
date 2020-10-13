@@ -46,7 +46,7 @@ public class BufferedWriterReader {
             BufferedReader br = new BufferedReader(new FileReader(nombre));
 
             
-            String valor ;
+            String valor = "" ;
             
             while ((valor=br.readLine()) != null){
                 System.out.println(valor);

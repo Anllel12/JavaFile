@@ -51,7 +51,7 @@ public class FileReaderFIleWriter {
             
             int valor = fr.read();
             while (valor != -1){
-                System.out.println(valor);
+                System.out.println((char)valor);
                 valor = fr.read();
             }
             fr.close();
